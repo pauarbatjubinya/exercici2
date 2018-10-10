@@ -1,0 +1,9 @@
+var a = prompt("Diguem una frase");
+var b = a.match(/[aeiou]/gi).length;
+var c = a.match(/[o]/gi).length;
+
+alert("En aquesta frase hi han " + b + " vocals");
+
+if (c>=1){
+    alert("hi han " + c + " o")
+}
